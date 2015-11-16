@@ -6,6 +6,22 @@ background-position: center;
 color: rgba(0, 0, 0, 0.9);
 padding: 100px 0 0 0;
 }
+ #header {
+      position: fixed;
+    }
+    #content {
+    margin-top: 100px;
+  }
+a {
+   background: ;
+   -moz-transition: all 0.2s ease-out 0.2s;
+   -webkit-transition: all 0.2s ease-out 0.2s;
+   -o-transition: all 0.2s ease-out 0.2s;
+   transition: all 0.2s ease-out 0.2s;
+}
+a:hover {
+   background: ;
+}
 a {
 color: rgba(100, 100, 100, 0.9);
 text-decoration: none;
@@ -25,6 +41,11 @@ a:active {
 color: rgba(100, 100, 100, 0.9);
 text-decoration: none;
 
+}
+
+li:hover {
+  background: blue;
+  padding: 20px;
 }
 article {
 max-width: 500px;
