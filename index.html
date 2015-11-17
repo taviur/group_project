@@ -11,17 +11,20 @@
 
 <body>
    <header>
-      
-    <nav class="fixed-nav-bar">
-      <h1>What Next?</h1>
-      
+   <a name="home"><h1>What Next?</h1></a>
+<br>
+     <br>
+     <br> 
+      <br>
+       <nav class="fixed-nav-bar">   
       <ul>
          <li><a href="#home"><b>Home - About Us</b></a></li>
          <li><a href="#study"><b>Study More</b></a></li>
          <li><a href="#work"><b>World of Work</b></a></li>
          <li><a href="#something_else"><b>Something Else</b></a></li>
-         <li><a href="#blog"><b>Blog</b></a></li>
          <li><a href="#useful_links"><b>Useful Links</b></a></li>
+        <li><a href="#submit"><b>Submit</b></a></li>
+
       </ul>
 
    </nav>
@@ -40,26 +43,20 @@
       $( "li.fade" ).hover(function() {
   $( this ).fadeOut( 100 );
   $( this ).fadeIn( 500 );
+        $( "h1.fade" ).hover(function() {
+  $( this ).fadeOut( 100 );
+  $( this ).fadeIn( 500 );
 });
 </script>
 </div>
    </header>
 
 
-<br>
-  <div class="container">
+<br>  <div class="container">
     <div class='jumbotron'>
-          <h2>What's happening on here?</h2>
-      <form role='form' align="center">
-        <p>Before you do anything.....sign up to this website so you don't miss anything!</p>
-          <label for="email">Email</label>
-          <input type="text" name="email" >
-          <button class='btn btn-success'>Send</button>
-        </form>
-        <br>
    <p>You might be finishing uni in a year or a month, or you might already be finished, and be thining what the fuck do I do after uni? This website is going to help you</p>
    <br>
-   <a name="study"><h3>Study More</h3></a>
+   <a name="study"><h2>Study More</h2></a>
    <p>You may be addicted to learning, which is great (you nerd! no really, learning is great) so maybe you're thinking about taking a Masters or a PhD and wondering how the fuck that whole ting even works, because lord knows we had no bloody clue.</p>
    <br>
 <p>First off, we'll define post-study study as 'taught courses' and 'research courses' because as we struggled to find out, not all master programmes are made the same.
@@ -102,7 +99,7 @@
 <p><a href="http://www.savethegraduate.org/grad-blog/life-after-university.html">Save The Graduate - The Ultimate Guide</a></p>
 <p>Bit of cheesy pic, but some ruddy good practical information about stuff like accommodation, re-paying your student loan (ick), claiming JSA, and a bunch of other handy stuff!</p>`
    <br>
-   <h2>Submit Your Tips</h2>
+   <a name="submit"><h2>Submit Your Tips</h2></a>
    <p>Please use the space below to submit your tremendous tips, clever comments, sexy suggestions or, well, anything you ruddy well want!</p> 
    <form 
   action="mailto:info@infoinfo.info"
@@ -134,10 +131,20 @@ Tip, comment, suggestion, no. of hugs you want to give us<br>
 </form>
 
 <br>
-   <div id='social-buttons'>
+   <div id='social-buttons' col="2">
       <button class='btn btn-lg btn-twitter'>Twitter</button>
       <button class='btn btn-lg btn-facebook'>Facebook</button>
       <button class='btn btn-lg btn-pinterest'>Pinterest</button>
+                   <form role='form' align="right">
+                                <p>Don't forget to sign up to our swanky newsletter!</p>
+
+<label for="email">Email</label>
+          <input type="text" name="email" >
+          <button class='btn btn-success'>Send</button>
+        </form> </div>
+    <br>
+    <div id='newsletter'>
+
     </div>
    <footer>
       <ul>
