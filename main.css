@@ -6,6 +6,11 @@ background-position: center;
 color: rgba(0, 0, 0, 0.9);
 padding: 100px 0 0 0;
 }
+
+.blog {
+	margin-left: 25%;
+	margin-bottom: 5%;
+}
 .nav {
 position: -webkit-sticky;
 top: 0;
